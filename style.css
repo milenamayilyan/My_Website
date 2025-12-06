@@ -14,7 +14,7 @@ body {
 
 /* Header */
 header {
-    background: #800020;
+    background: #2f7d2f; /* Green color */
     padding: 60px 20px;
     color: #ffffff;
     text-align: center;
@@ -48,11 +48,6 @@ header {
     font-weight: 600;
 }
 
-.header-text .subtitle {
-    font-size: 1em;
-    color: #f5d6d6;
-}
-
 /* Main content */
 main .content {
     max-width: 1200px;
@@ -66,8 +61,8 @@ main .content {
 /* Section headers */
 section h3 {
     font-size: 1.9em;
-    color: #800020;
-    border-bottom: 3px solid #800020;
+    color: #2f7d2f;
+    border-bottom: 3px solid #2f7d2f;
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: 25px;
@@ -75,7 +70,7 @@ section h3 {
 
 /* Frames and cards */
 .framed-info, .card {
-    border: 2px solid #800020;
+    border: 2px solid #2f7d2f;
     border-radius: 15px;
     padding: 25px;
     background: #ffffff;
@@ -106,7 +101,7 @@ section h3 {
 }
 
 .skills-column h4 {
-    color: #800020;
+    color: #2f7d2f;
     margin-bottom: 12px;
     font-size: 1.2em;
 }
@@ -118,6 +113,27 @@ section h3 {
 .skills-column li {
     margin-bottom: 10px;
     font-size: 1em;
+}
+
+/* Social links */
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #2f7d2f;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.social-icon {
+    width: 22px;
+    height: 22px;
 }
 
 /* Responsive */
