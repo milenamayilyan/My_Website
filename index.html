@@ -8,28 +8,30 @@
 </head>
 <body>
 
-<div class="container">
-
-    <!-- Left Panel -->
-    <div class="left-panel">
+<header>
+    <div class="header-container">
         <img src="https://i.imgur.com/vLWd4zV.jpeg" alt="Milena Mayilyan">
-        <h1>Milena Mayilyan</h1>
-        <h2>UFAR & Toulouse University Student | Video Editor</h2>
-    </div>
-
-    <!-- Right Panel -->
-    <div class="right-panel">
-
-        <div class="section">
-            <h3>Personal Info</h3>
-            <div class="info-grid">
-                <p><strong>Location:</strong> Yerevan, Armenia</p>
-                <p><strong>Date of Birth:</strong> 03.07.2005</p>
-                <p><strong>Scholarship:</strong> Armenian Educational Foundation (2024–present)</p>
-            </div>
+        <div class="header-text">
+            <h1>Milena Mayilyan</h1>
+            <h2>UFAR & Toulouse University Student | Video Editor</h2>
+            <p class="subtitle">Aspiring Developer & Tech Enthusiast</p>
         </div>
+    </div>
+</header>
 
-        <div class="section">
+<main>
+    <div class="content">
+
+        <!-- Personal Info -->
+        <section class="info framed-info">
+            <h3>Personal Info</h3>
+            <p><strong>Location:</strong> Yerevan, Armenia</p>
+            <p><strong>Date of Birth:</strong> 03.07.2005</p>
+            <p><strong>Scholarship:</strong> Armenian Educational Foundation (2024–present)</p>
+        </section>
+
+        <!-- Education -->
+        <section class="education">
             <h3>Education</h3>
             <div class="cards">
                 <div class="card">School N200 named after Leonid Azgaldyan (2011–2020)</div>
@@ -38,9 +40,10 @@
                 <div class="card">UFAR University (2023–2027)</div>
                 <div class="card">Toulouse University (2024–2027)</div>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
+        <!-- Volunteer Experience -->
+        <section class="experience">
             <h3>Volunteer Experience</h3>
             <div class="cards">
                 <div class="card">
@@ -60,12 +63,12 @@
                     <p>Provided schedules and answered inquiries from international delegates. Coordinated their daily transport to the conference venue.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
+        <!-- Skills -->
+        <section class="skills">
             <h3>Skills</h3>
             <div class="skills-container">
-
                 <div class="skills-column">
                     <h4>Technical Skills</h4>
                     <ul>
@@ -78,7 +81,6 @@
                         <li>Video Editing (Adobe After Effects)</li>
                     </ul>
                 </div>
-
                 <div class="skills-column">
                     <h4>Soft Skills</h4>
                     <ul>
@@ -89,13 +91,11 @@
                         <li>Attention to Detail</li>
                     </ul>
                 </div>
-
             </div>
-        </div>
+        </section>
 
     </div>
-
-</div>
+</main>
 
 </body>
 </html>
