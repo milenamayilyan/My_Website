@@ -90,20 +90,20 @@ section h3 {
 }
 
 /* Skills */
-.skills-container {
-    display: flex;
-    gap: 40px;
+.skills-cards {
+    flex-direction: row;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
-.skills-column {
+.skills-cards .card {
     flex: 1;
 }
 
-.skills-column h4 {
+.skills-cards h4 {
     color: #2f7d2f;
     margin-bottom: 12px;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 /* Each skill in a box */
@@ -144,8 +144,7 @@ section h3 {
         padding: 0 10px;
     }
 
-    .skills-container {
+    .skills-cards {
         flex-direction: column;
-        gap: 20px;
     }
 }
