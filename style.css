@@ -14,7 +14,7 @@ body {
 
 /* Header */
 header {
-    background: #2f7d2f; /* Green color */
+    background: #90ee90; /* Light green */
     padding: 60px 20px;
     color: #ffffff;
     text-align: center;
@@ -106,12 +106,14 @@ section h3 {
     font-size: 1.2em;
 }
 
-.skills-column ul {
-    padding-left: 20px;
-}
-
-.skills-column li {
+/* Each skill in a box */
+.skill-box {
+    display: inline-block;
+    padding: 10px 15px;
     margin-bottom: 10px;
+    background: #e6f3e6;
+    border-left: 6px solid #2f7d2f;
+    border-radius: 10px;
     font-size: 1em;
 }
 
